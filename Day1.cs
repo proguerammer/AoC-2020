@@ -8,7 +8,7 @@ namespace AoC
 		public static void Solve()
 		{
 			var lines = File.ReadAllLines(@"..\..\data\day1.txt");
-			//CheckForTwo(lines);
+			CheckForTwo(lines);
 			CheckForThree(lines);
 		}
 
@@ -22,7 +22,7 @@ namespace AoC
 					int v2 = int.Parse(lines[j]);
 					if ((v1 + v2) == 2020)
 					{
-						Console.WriteLine(v1 * v2);
+						Console.WriteLine("1-1: {0}", v1 * v2);
 					}
 				}
 			}
@@ -41,7 +41,7 @@ namespace AoC
 						int v3 = int.Parse(lines[k]);
 						if ((v1 + v2 + v3) == 2020)
 						{
-							Console.WriteLine(v1 * v2 * v3);
+							Console.WriteLine("1-2: {0}", v1 * v2 * v3);
 						}
 					}
 
