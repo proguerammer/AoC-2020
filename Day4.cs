@@ -11,7 +11,7 @@ namespace AoC
 	{
 		public static void Solve()
 		{
-			var lines = File.ReadAllLines(@"..\..\data\day4.txt");
+			var lines = File.ReadAllLines(@"..\..\..\data\day4.txt");
 			CheckPassports(lines);
 		}
 
