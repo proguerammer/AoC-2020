@@ -9,7 +9,7 @@ namespace AoC
 	{
 		public static void Solve()
 		{
-			var lines = File.ReadAllLines(@"..\..\..\data\day2.txt");
+			var lines = File.ReadAllLines(@"../../../data/day2.txt");
 			CheckPolicy1(lines);
 			CheckPolicy2(lines);
 		}

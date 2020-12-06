@@ -10,7 +10,7 @@ namespace AoC
 	{
 		public static void Solve()
 		{
-			var lines = File.ReadAllLines(@"..\..\..\data\day5.txt");
+			var lines = File.ReadAllLines(@"../../../data/day5.txt");
 			CheckSeats(lines);
 			FindMySeat(lines);
 		}

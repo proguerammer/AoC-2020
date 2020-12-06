@@ -7,7 +7,7 @@ namespace AoC
 	{
 		public static void Solve()
 		{
-			var lines = File.ReadAllLines(@"..\..\..\data\day1.txt");
+			var lines = File.ReadAllLines(@"../../../data/day1.txt");
 			CheckForTwo(lines);
 			CheckForThree(lines);
 		}

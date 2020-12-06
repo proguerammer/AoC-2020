@@ -11,7 +11,7 @@ namespace AoC
 	{
 		public static void Solve()
 		{
-			var lines = File.ReadAllLines(@"..\..\..\data\day3.txt");
+			var lines = File.ReadAllLines(@"../../../data/day3.txt");
 			Part1(lines);
 			Part2(lines);
 		}
